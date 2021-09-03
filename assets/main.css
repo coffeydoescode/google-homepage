@@ -49,15 +49,66 @@ table {
 
 /* Here is where my styling starts */
 
-#center {  
-    text-align: center;  
-    padding-bottom: 50px;
-}  
+/* Top Nav Styles */
 
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.top-nav-list__right{
+    display: flex;
+}
+.top-nav-list__item{
+    display: inline;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.top-nav-list__item a{
+    text-decoration: none;
+    color:black;
+}
 
+.top-nav-list__item a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.top-nav-list__item a:hover{
+    text-decoration: underline;
+}
+
+.material-icons{
+    color: grey;
+    
+}
+
+/* Bottom Nav Link Styles */
+
+.bottom-nav-list__item{
+    text-decoration: none;
+    color: grey;
+}
+
+.bottom-nav-list__item a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.bottom-nav-list__item a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+.bottom-nav-list__item a:hover{
+    text-decoration: underline;
+}
 
 #searchbar {
     text-align: center;
+    
 
 
 }
@@ -76,6 +127,19 @@ table {
     display: inline;
     line-height: 3;
     overflow: hidden;
+}
+.Gmail{
+    float: right;
+    z-index: 1;
+}
+.Apps{
+    float: right;
+    z-index: 2;
+}
+
+.Images{
+    float: right;
+    z-index: 3;
 }
 .nav_list a:link {
   text-decoration: none;

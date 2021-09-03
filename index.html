@@ -1,81 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
     <title>Google</title>
-<style>
 
-#center {  
-    text-align: center;  
-    padding-bottom: 50px;
-}  
+<link rel="stylesheet" href="assets/main.css">
 
-
-
-#searchbar {
-    text-align: center;
-
-
-}
-
-#button {
-    background-color: transparent;
-    border: none;
-    margin-top: 15px
-}
-
-
-#buttons2 {
-    background-color: transparent;
-    margin: 10px;
-    margin-right: 20px;
-
-}
-</style>
-
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 </head>
+
 <body>
 
-<nav>
-    <button id="button">
-        About
+<header> 
+
+    <!--Top Nav Links-->
+
+<nav class="top-nav">
+
+    <ul class="top-nav-list__left">
+
+        <li class="top-nav-list__item">
+            <a href="https://www.google.com/">About</a></li>
+
+        <li class="top-nav-list__item">
+            <a href="https://www.google.com/">Store</li></a>
+    </ul>    
+     
+<div class=".top-nav-list__right" style="display: flex;"> <!--Temnporary line style while fixing issue-->
+
+    <ul class="top-nav-list__right-items">
+            <li class="top-nav-list__item">
+            <a href="https://www.google.com/">Gmail</a></li>
+
+        <li class="top-nav-list__item">
+            <a href="https://www.google.com/">Images</a></li>
+
+        <li class="top-nav-list__item">
+            <a href="#"><span class="material-icons md-24 top-nav-list__item">apps</span></a></li>
+    </ul>
+
+    <button class="button .top-nav-list__-item">
+        Sign In
     </button>
+
+</div>
     
-    <button id="button">
-        Store
+</nav>
 
-    </button>
-    <button id="button">
-        Gmail
+<!--Logo-->
 
-    </button>
+<div class="top-nav-logo"><img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92" width="272" alt= "Google Logo">
+    </div>
 
-    <button id="button">
-        Images
+</header>
 
-    </button>
+<!--Searbar-->
 
-    </nav>
+<div class="searchbar">
+    <input type="text" placeholder="">
+    </div>
 
+<div class="search-buttons">
 
-
- <div id="center"><img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92" width="272" alt= "Google Logog" class="center">
-</div>
-
-<div id= "searchbar" class="searchbar">
-<input type="text" placeholder=""
-</div>
-
-<div id="buttons2">
-<button>
-    <strong>Google Search</strong>
+<button class="search-button">
+    Google Search
 </button>
 
-<button>
-    <strong>I'm Feeling Lucky</strong>
+<button class="search-button">
+    I'm Feeling Lucky
 </button>
-</div>
+    </div>
 
+<!--Bottom Nav Links-->
+
+<footer>
+
+    <ul class="bottom-nav-list__left">
+
+        <li class="bottom-nav-list__item">
+            <a href="https://www.google.com/">Advertising</a></li>
+
+        <li class="bottom-nav-list__item">
+            <a href="https://www.google.com/">Business</li></a>
+
+        <li class="bottom-nav-list__item">
+                <a href="https://www.google.com/">How Search Works</li></a>
+    </ul> 
+<!--Insert Cabron Neutral Item here-->
+    <ul class="bottom-nav-list__right">
+
+        <li class="bottom-nav-list__item">
+            <a href="https://www.google.com/">Privacy</a></li>
+
+        <li class="bottom-nav-list__item">
+            <a href="https://www.google.com/">Terms</li></a>
+
+        <li class="bottom-nav-list__item">
+                <a href="https://www.google.com/">Settings<li></a>
+    </ul> 
+
+</footer>
 
 </body>
+
 </html>
