@@ -49,7 +49,7 @@ table {
 
 /* Here is where my styling starts */
 
-/* Top Nav Styles */
+/* Header and Nav Bar styles */
 
 
 .top-nav{
@@ -87,11 +87,30 @@ table {
     
 }
 
-/* Bottom Nav Link Styles */
-
+/* Footer and Nav Bar Link Styles */
+footer{
+    height: auto;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+.bottom-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.bottom-nav-list__left {
+    display: flex;
+}
+.bottom-nav-list__right{
+    display: flex;
+}
 .bottom-nav-list__item{
     text-decoration: none;
-    color: grey;
+    color: #5f6368;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .bottom-nav-list__item a{
@@ -106,6 +125,33 @@ table {
 .bottom-nav-list__item a:hover{
     text-decoration: underline;
 }
+
+/* Google Logo */ 
+.top-nav__logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    
+    border-style: solid;
+    border-color: hotpink;
+    border-width: 2px;
+}
+.top-nav-logo{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+
+    height: 92px;
+    width: 272px;
+    background-image: url(/assets/images/google\ logo.png);
+    background-repeat: no-repeat;
+    
+}
+
+
+/* Commenting out for now
 
 #searchbar {
     text-align: center;
@@ -155,3 +201,4 @@ table {
     height: 30px;
     width: auto;
 }
+*/
