@@ -171,13 +171,10 @@ footer{
     height: 300px;
     
 }
-.top-nav-logo{
-    
+.top-nav__logo{
     height: 92px;
     width: 272px;
-    background-image: url(/assets/images/google\ logo.png);
-   
-}
+} 
 
 /* Search Box Styles */
 
