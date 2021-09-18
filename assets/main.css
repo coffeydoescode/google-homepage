@@ -3,230 +3,320 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Here is where my styling starts */
 
-
 /* Header and Nav Bar styles */
 
-
-.top-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    margin-left: 15px;
-    margin-right: 25px;
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-left: 15px;
+  margin-right: 25px;
 }
-.top-nav-list__right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.top-nav-list__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top-nav-list__right-items{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+.top-nav-list__right-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.top-nav-list__item{
-    display: inline;
-    text-decoration: none;
-    color:black;
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
+.top-nav-list__item {
+  display: inline;
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
-.top-nav-list__item a{
-    text-decoration: none;
-    color:black;
+.top-nav-list__item a {
+  text-decoration: none;
+  color: black;
 }
 
 .top-nav-list__item a:visited {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-.top-nav-list__item a:hover{
-    text-decoration: underline;
+.top-nav-list__item a:hover {
+  text-decoration: underline;
 }
 
-.material-icons{
-    color: #737373;
-    
+.material-icons {
+  color: #737373;
 }
-.top-nav-list-button{
-    background-color: #4486f8;
-    color: white;
-    border-radius: 5%;
-    border: none;
-    font-size: 12px;
-    font-weight: bold;
-    padding-right: 12px;
-    padding-left: 12px;
-    line-height: 28px;
-    
+.top-nav-list-button {
+  background-color: #4486f8;
+  color: white;
+  border-radius: 5%;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 12px;
+  padding-left: 12px;
+  line-height: 28px;
 }
-.top-nav-list-button a{
-    background-color: inherit;
+.top-nav-list-button a {
+  background-color: inherit;
 }
-.top-nav-list-button a:visited{
-    text-decoration: none;
-    color: inherit;
+.top-nav-list-button a:visited {
+  text-decoration: none;
+  color: inherit;
 }
-.top-nav-list-button a:hover{
-    text-decoration: underline;
+.top-nav-list-button a:hover {
+  text-decoration: underline;
 }
 
 /* Footer and Nav Bar Link Styles */
-footer{
-    height: 40px;
-    background-color: #f2f2f2;
-    border-top: 1px solid #e4e4e4;
+footer {
+  height: 40px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
 }
-.bottom-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    margin-right: 25px;
-    margin-left: 25px;
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-right: 25px;
+  margin-left: 25px;
 }
 .bottom-nav-list__left {
-    display: flex;
+  display: flex;
+}
+.bottom-nav-list__right {
+  display: flex;
+}
+.bottom-nav-list__item {
+  text-decoration: none;
+  color: #5f6368;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
 
-}
-.bottom-nav-list__right{
-    display: flex;
-}
-.bottom-nav-list__item{
-    text-decoration: none;
-    color: #5f6368;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-.bottom-nav-list__item a{
-    text-decoration: none;
-    color:inherit;
+.bottom-nav-list__item a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .bottom-nav-list__item a:visited {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
-.bottom-nav-list__item a:hover{
-    text-decoration: underline;
+.bottom-nav-list__item a:hover {
+  text-decoration: underline;
 }
 
-/* Google Logo */ 
-.top-nav__logo-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 300px;
-    
+/* Google Logo */
+.top-nav__logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  margin-top: 100px;
 }
-.top-nav__logo{
-    height: 92px;
-    width: 272px;
-} 
-/* 
+.top-nav__logo {
+  height: 92px;
+  width: 272px;
+}
+
 /* Search Box Styles */
+.searchbar {
+  width: 100%;
+  max-width: 40%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border: 0.5px solid #dee1e5;
+  border-radius: 50px;
+  background: white;
+}
+.searchbar__input {
+  flex-grow: 1;
+  padding: 5px;
+  outline: none;
+  border: none;
+}
 
-.searchbar-box{
-    margin: auto;
-    display: flex;
-    justify-content: center;
-   
+.searchbar-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #9aa0a5;
 }
-input{
-    width: 200px;
-    border-radius: 50%;
-    border: 4px solid rebeccapurple;
-}
-.search-buttons{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.search-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
 .search-button {
-    background-color: #f2f2f2;
-    border: 1px;
-    border-radius: 5px;
-    margin-top: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #5f6368;
-    padding: 10px;
-    margin: 5px;
-    border: 1px solid #e4e4e4;
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #3c4043;
+  padding: 10px;
+  margin: 5px;
 }
 
 /* Search Button Links */
 
-.search-button a{
-    text-decoration: none;
-    color: inherit;
+.search-button a {
+  text-decoration: none;
+  color: inherit;
 }
-.search-button a:hover{
-    text-decoration: none;
+.search-button a:hover {
+  text-decoration: none;
 }
-.search-button a:visited{
-    text-decoration: none;
-    color: inherit;
-} */
+.search-button a:visited {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* Footer Sticky Styling */
 
-body{
-    min-height: 100vh;
+body {
+  min-height: 100vh;
 }
-footer{
-    position: sticky;
-    top: 100%;
+footer {
+  position: sticky;
+  top: 100%;
 }
